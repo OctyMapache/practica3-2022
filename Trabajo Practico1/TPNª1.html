@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T.P. Nª1</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+</head>
+    <body>    
+<!-- Navbar -->
+        <nav class="navbar navbar-light bg-warning">
+            <div class="container-fluid">
+              <span class="navbar-brand mb-0 h1">T.P. Nª1</span>
+            </div>
+          </nav>
+        
+    <div class="container-sm" class="container-md" class="container-lg" class="container-xl" class="container-xxl">
+
+        <h1 class="display-5">Alta Producto</h1>
+
+<!-- ROW General -->
+        <div class="row">
+<!-- Primer Columna -->
+            <div class="col-lg-6">
+
+                <div class="row">
+            
+                    <div class="col-lg-12">
+                        <div class="mb-3">
+                            <label class="form-label">Descripcion</label>
+                            <input class="form-control" type="text">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Detalle</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input value="25.5" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Nª</span>
+                            <input type="text" class="form-control" placeholder="Stock" aria-label="Stock">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input type="text" class="form-control" placeholder="Precio de venta" aria-label="Precio de venta">
+                        </div>
+    
+
+                        <div class="mb-3">
+                            <select class="form-select">
+                                <option selected>Categoria...</option>
+                                <option value="1">example1</option>
+                                <option value="2">example2</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">               
+                            <button type="submit" class="btn btn-success">Guardar Producto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- Segundo Columna -->
+            <div class="col-lg-6">
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                                <label class="form-label">Fecha de Alta</label>
+                                <input class="form-control" type="date">
+                        </div>                    
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="mb-4">
+                                <label class="form-label">Hora de Alta</label>
+                                <input class="form-control" type="time">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="https://www.kreatuweb.com/wp-content/uploads/2021/03/bootstrap.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
