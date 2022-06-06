@@ -5,7 +5,7 @@ async function dolar_hoy(){
     const datos = await dolar.json()
 
     datos.forEach((element, index) => {
-        console.log(index + '-' + element.casa.nombre + '- Compra:' + element.casa.nombre + '- Venta:'= element.casa.nombre)       
+        console.log(index + '-' + element.casa.nombre + '- Compra:' + element.casa.compra + '- Venta:'+ element.casa.venta)       
     });
 }
 dolar_hoy()
