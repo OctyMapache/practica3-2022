@@ -10,7 +10,7 @@ async function dolar_hoy(){
 
         let fila = `
             <tr>
-                <td>${index}</td>
+                <td>${index+1}</td>
                 <td>${element.casa.nombre}</td>
                 <td>$${element.casa.compra}</td>
                 <td>$${element.casa.venta}</td>
